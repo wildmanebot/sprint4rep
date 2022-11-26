@@ -11,7 +11,7 @@ vehicles_df = pd.read_csv('vehicles_us.csv')
 st.header('A Closer Look at Drivetrain Types in the Used Vehicle Market')
 
 #Description of the purpose of the page
-st.write('We will take a closer look at the differences between 4wd and 2wd drivetrain type vehicles.') 
+st.write("Let's take a closer look at the differences between 4wd and 2wd drivetrain type vehicles.") 
 
 #Fills missing values in is_4wd column with string '2wd' (two wheel drive) and converts entire column to string (object Dtype)
 vehicles_df['is_4wd'] = vehicles_df['is_4wd'].fillna('2wd').astype('str')
@@ -32,8 +32,16 @@ vehicles_df = vehicles_df.loc[vehicles_df['price'] <= 100000]
 fig = px.scatter(vehicles_df, x="price", y="model_year", color="drivetrain")
 fig.update_layout(xaxis_title="Price", yaxis_title="Model Year")
 st.plotly_chart(fig, use_container_width=True)
-st.write("There seems to be more 4wd drivetrains among vehicles that are newer. This makes sense given that 4wd really only took off in the 80's.") 
-
+st.write("There appears to be more 4wd drivetrains among modern vehicles than older models, with counts of 4wd vehicles increasing every year, seemingly faster than 2wd vehicles.") 
+st.write("Below we look at the price and amount of each drivetrain type.")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
 #create checkbox
 cbox_4wd = st.checkbox('Display only 4wd Vehicles', value=True)
 
