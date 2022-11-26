@@ -1,2 +1,2 @@
-# sprint4rep
-Repository for Sprint 4 project
+# Sprint 4 Project
+This is the project for Practicum's Data Science Bootcamp Sprint 4. In this project, a used vehicle dataset is cleaned and analyzed. The focus was relatively open-ended, and was meant to show my capabilities in using github, pandas and plotly libraries, and the streamlit library. It was also an introduction to Render's online web app service, where some of this project's results and visualizations can be found. 
