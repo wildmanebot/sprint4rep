@@ -3,4 +3,6 @@ This is the project for Practicum's Data Science Bootcamp Sprint 4. In this proj
 
 The Render web app for this project can be found at the following link: https://sprint4.onrender.com
 
-You can also take a look at the project's Jupyter notebook by installing VS code and opening the ipynb file included in this repository. 
+You can also take a look at the project's Jupyter notebook by installing VS code and opening the ipynb file included in this repository.
+
+Running the streamlit app locally will require you to have the pandas, plotly, and streamlit libraries installed in your local python environment. To run the streamlit app, open your environment's terminal, navigate to the cloned repository folder, and enter the following: streamlit run app.py
